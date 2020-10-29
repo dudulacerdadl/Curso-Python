@@ -1,0 +1,10 @@
+ob = input('Digite algo: ')
+
+print('O que foi digitado é do tipo primitivo {}'.format(type(ob)))
+print('Só tem espaços? {}'.format(ob.isspace()))
+print('É um número? {}'.format(ob.isnumeric()))
+print('É alfabético? {}'.format(ob.isalpha()))
+print('É alfanumérico? {}'.format(ob.isalnum()))
+print('Está em maiúsculas? {}'.format(ob.isupper()))
+print('Está em minúsculas? {}'.format(ob.islower()))
+print('Está capitalizada? {}'.format(ob.istitle()))
