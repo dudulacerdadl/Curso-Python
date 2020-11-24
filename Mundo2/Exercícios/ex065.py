@@ -12,8 +12,8 @@ while option != 'N':
         down = num
     if num > up:
         up = num
-    if num > down:
-        num = down
+    if num < down:
+        down = num
     counter += 1
     option = input('Deseja continuar? [S/N]: ').upper()
     if option not in 'NS':

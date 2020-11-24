@@ -1,4 +1,4 @@
-start = int(input('Digite o número inicial: '))
+start = 1  # int(input('Digite o número inicial: '))
 repeat = int(input('Digite a quantidade de números desejados: '))
 counter = 0
 previous = 0
